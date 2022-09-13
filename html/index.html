@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/fontawesome.min.css">
-    <link rel="stylesheet" href="../styles.css">
     <script src="https://kit.fontawesome.com/075711bcd5.js" crossorigin="anonymous"></script>
     <title>Banking App</title>
 </head>
@@ -28,7 +28,7 @@
                     required>
             </div>
             <div class="submit"><button type="submit" id="submitBtn">
-                    <i class="fa fa-arrow-alt-circle-right"></i></button>
+                    <img src="/assets/right.png" width="35px"></button>
             </div>
         </form>
     </div>
@@ -64,24 +64,24 @@
                     <p><span>1234</span> <span>5676</span> <span>3564</span> <span>5364</span></p>
                     <p>04/16</p>
                 </div>
-                <i class="fa-brands fa-cc-visa"></i>
+                <i><img src="/assets/all.png" width="50px"></i>
             </div>
 
         </div>
         <div class="deposit-container">
-            <i class="fa-solid fa-piggy-bank"></i>
+            <i><img src="/assets/upload.png" width="50px"></i>
             <p>Deposit</p>
         </div>
         <div class="withdrawal-container">
-            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <i><img src="/assets/money-withdrawal.png" width="50px"></i>
             <p>Withdraw</p>
         </div>
         <div class="transfer-container">
-            <i class="fa-solid fa-money-bill-transfer"></i>
+            <i><img src="/assets/send.png" width="50px"></i>
             <p>Send Money</p>
         </div>
         <div class="view-users">
-            <i class="fa-solid fa-users"></i>
+            <i><img src="/assets/group.png" width="50px"></i>
             <p>Friends</p>
         </div>
         <div class="expenses-container">
@@ -102,7 +102,7 @@
     <section class="containers hide">
         <div id="deposit-container" class="hide">
             <h1>Deposit</h1>
-            <div><i class="fa-solid fa-piggy-bank"></i>
+            <div><i><img src="/assets/upload.png" width="50px"></i>
                 <input type="number" oninput="this.value=this.value.slice(0,this.maxLength)" maxlength="5" max="10000">
             </div>
             <h2></h2>
@@ -112,7 +112,7 @@
         <div id="withdraw-container" class="hide">
             <h1>Withdraw</h1>
             <div>
-                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <i><img src="/assets/money-withdrawal.png" width="50px"></i>
                 <input type="number" oninput="this.value=this.value.slice(0,this.maxLength)" maxlength="5" max="10000">
             </div>
             <h2></h2>
@@ -129,7 +129,7 @@
 
                 </div>
                 <div id="transfer">
-                    <i class="fa-solid fa-money-bill-transfer"></i>
+                    <i><img src="/assets/send.png" width="50px"></i>
                     <input id="transferInput" type="number" placeholder="Input Transfer Value"
                         oninput="this.value=this.value.slice(0,this.maxLength)" maxlength="5" max="10000">
                 </div>

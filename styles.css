@@ -122,6 +122,7 @@ body {
   background-color: transparent;
   font-size: 3rem;
   color: var(--third-color);
+  cursor: pointer;
 }
 
 #submitBtn:focus {
